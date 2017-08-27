@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Uni Sans Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Uni Sans Heavy'), url('../ressource/Uni Sans Heavy.woff') format('woff');
+}
+
+body {
+    background-color: #7289DA;
+    font-family: "Uni Sans Heavy";
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+video {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    margin-top: 1.5%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    z-index: 100;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
