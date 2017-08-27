@@ -9,7 +9,7 @@ body {
     background-color: #7289DA;
     font-family: "Uni Sans Heavy";
     color: whitesmoke;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -39,4 +39,9 @@ h4 {
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+.btn {
+    color: #7986cb;
+    margin-bottom: 1%;
 }
